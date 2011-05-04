@@ -86,4 +86,4 @@ if ($program =~ m!
     elog(DEBUG, "The string '$program' did not match! :-(");
 }
 return 1;
-$FOO$ LANGUAGE plperlu VOLATILE;
+$FOO$ LANGUAGE plperlu VOLATILE SECURITY DEFINER;
