@@ -1,0 +1,199 @@
+[29-Apr-2011 22:59:10] PHP Parse error:  syntax error, unexpected '/' in /home/netti590/public_html/tdb/index.php on line 29
+[29-Apr-2011 22:59:47] PHP Fatal error:  Call to undefined function  getcurrenturl() in /home/netti590/public_html/tdb/gdata.php on line 16
+[29-Apr-2011 23:04:55] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/netti590/public_html/tdb/index.php on line 35
+[29-Apr-2011 23:05:42] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(31): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/Na-_OLeCWgrld...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:06:45] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(31): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/Na-_OLeCWgrld...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:08:53] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(31): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/1-T48OYQGd_8K...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:10:59] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(31): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/1-T48OYQGd_8K...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:11:16] PHP Parse error:  syntax error, unexpected '!' in /home/netti590/public_html/tdb/index.php on line 36
+[29-Apr-2011 23:13:57] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(31): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/V2jBDz9WhgaST...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:14:54] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(31): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/V2jBDz9WhgaST...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:15:10] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(32): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/dtFCW7sfkR8cF...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:15:38] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(32): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/dtFCW7sfkR8cF...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:15:45] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(34): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/dtFCW7sfkR8cF...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:15:46] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(34): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/dtFCW7sfkR8cF...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:16:20] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(34): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/dtFCW7sfkR8cF...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:21:21] PHP Parse error:  syntax error, unexpected ')' in /home/netti590/public_html/tdb/index.php on line 31
+[29-Apr-2011 23:21:46] PHP Parse error:  syntax error, unexpected '{' in /home/netti590/public_html/tdb/index.php on line 34
+[29-Apr-2011 23:22:10] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_AuthException' with message 'Token upgrade failed. Reason: <HTML>
+<HEAD>
+<TITLE>Invalid AuthSub token.</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid AuthSub token.</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php:138
+Stack trace:
+#0 /home/netti590/public_html/tdb/index.php(33): Zend_Gdata_AuthSub::getAuthSubSessionToken('1/dtFCW7sfkR8cF...')
+#1 {main}
+  thrown in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/AuthSub.php on line 138
+[29-Apr-2011 23:26:38] PHP Warning:  require_once(Zend/Loader.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/netti590/public_html/tdb/Calendar.php on line 51
+[29-Apr-2011 23:26:38] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Loader.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/netti590/public_html/tdb/Calendar.php on line 51
+[29-Apr-2011 23:26:39] PHP Warning:  require_once(Zend/Loader.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/netti590/public_html/tdb/Calendar.php on line 51
+[29-Apr-2011 23:26:39] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Loader.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/netti590/public_html/tdb/Calendar.php on line 51
+[29-Apr-2011 23:26:49] PHP Warning:  require_once(Zend/Loader.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/netti590/public_html/tdb/Calendar.php on line 51
+[29-Apr-2011 23:26:49] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Loader.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/netti590/public_html/tdb/Calendar.php on line 51
+[29-Apr-2011 23:54:45] PHP Parse error:  syntax error, unexpected $end in /home/netti590/public_html/tdb/index.php on line 62
+[29-Apr-2011 23:55:06] PHP Parse error:  syntax error, unexpected $end in /home/netti590/public_html/tdb/index.php on line 62
+[30-Apr-2011 00:08:30] PHP Fatal error:  Cannot redeclare createevent() (previously declared in /home/netti590/public_html/tdb/newEvent.php:10) in /home/netti590/public_html/tdb/Calendar.php on line 411
+[01-May-2011 21:01:51] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/netti590/public_html/tdb/newEvent.php on line 16
+[01-May-2011 21:02:44] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_HttpException' with message 'Expected response code 200, got 400
+[Line 1, Column 254, element gd:when] Badly formatted datetime' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/App.php:709
+Stack trace:
+#0 /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata.php(219): Zend_Gdata_App->performHttpRequest('POST', 'https://www.goo...', Array, '<atom:entry xml...', 'application/ato...', 5)
+#1 /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/App.php(695): Zend_Gdata->performHttpRequest('POST', 'https://www.goo...', Array, '<atom:entry xml...', 'application/ato...', 5)
+#2 /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata.php(219): Zend_Gdata_App->performHttpRequest('POST', 'https://www.goo...', Array, '<atom:entry xml...', 'application/ato...', NULL)
+#3 /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/App.php(900): Zend_Gdata->performHttpRequest('POST', 'https://www.goo...', Array, '<atom:entry xml...', 'applicatio in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/App.php on line 709
+[01-May-2011 21:03:30] PHP Fatal error:  Uncaught exception 'Zend_Gdata_App_HttpException' with message 'Expected response code 200, got 400
+[Line 1, Column 254, element gd:when] Badly formatted datetime' in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/App.php:709
+Stack trace:
+#0 /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata.php(219): Zend_Gdata_App->performHttpRequest('POST', 'https://www.goo...', Array, '<atom:entry xml...', 'application/ato...', 5)
+#1 /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/App.php(695): Zend_Gdata->performHttpRequest('POST', 'https://www.goo...', Array, '<atom:entry xml...', 'application/ato...', 5)
+#2 /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata.php(219): Zend_Gdata_App->performHttpRequest('POST', 'https://www.goo...', Array, '<atom:entry xml...', 'application/ato...', NULL)
+#3 /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/App.php(900): Zend_Gdata->performHttpRequest('POST', 'https://www.goo...', Array, '<atom:entry xml...', 'applicatio in /home/netti590/public_html/ZendGdata-1.11.5/library/Zend/Gdata/App.php on line 709
+[01-May-2011 21:07:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/netti590/public_html/tdb/newEvent.php:11) in /home/netti590/public_html/tdb/newEvent.php on line 15

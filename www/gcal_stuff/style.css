@@ -1,0 +1,13 @@
+#left {
+    position: absolute;
+    width: 50%;
+    left: 0;
+}
+
+
+#right {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    
+}
