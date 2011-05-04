@@ -1,69 +1,6 @@
-$ psql
-
--- Create a user:
-CREATE ROLE tdb WITH SUPERUSER;
-SET ROLE TO tdb;
-
--- Create the database:
-CREATE DATABASE tdb;
-
--- Connect to the database you just created:
-\c tdb
-
--- Install the languages we need for our stored procedures:
-CREATE LANGUAGE plpgsql;
-CREATE LANGUAGE plperl;
-CREATE LANGUAGE plperlu;
-
--- Create the db-model:
-CREATE SEQUENCE seqTrainingSessions;
-CREATE TABLE TrainingSessions (
-TrainingSessionID integer not null default nextval('seqTrainingSessions'),
-Datestamp timestamptz not null,
-PRIMARY KEY (TrainingSessionID)
-);
-
-CREATE SEQUENCE seqTrainingEvents;
-CREATE TABLE TrainingEvents (
-TrainingEventID integer not null default nextval('seqTrainingEvents'),
-TrainingSessionID integer not null,
-TargetDuration interval,
-TargetDistance integer,
-Duration interval,
-Distance integer,
-PRIMARY KEY (TrainingEventID),
-FOREIGN KEY (TrainingSessionID) REFERENCES TrainingSessions(TrainingSessionID)
-);
-
-
--- Create the functions:
 CREATE OR REPLACE FUNCTION New_Training_Session(Datestamp timestamptz) RETURNS INTEGER AS $BODY$
 INSERT INTO TrainingSessions (Datestamp) VALUES ($1) RETURNING TrainingSessionID;
 $BODY$ LANGUAGE sql VOLATILE;
-
-
-CREATE OR REPLACE FUNCTION New_Training_Event(_TrainingSessionID integer, _Duration interval, _Distance integer, _Target boolean) RETURNS INTEGER AS $BODY$
-DECLARE
-_TrainingEventID integer;
-BEGIN
-IF _Target IS TRUE THEN
-    INSERT INTO TrainingEvents (TrainingSessionID,TargetDuration,TargetDistance)
-    VALUES (_TrainingSessionID,_Duration,_Distance)
-    RETURNING TrainingEventID INTO STRICT _TrainingEventID;
-ELSE
-    INSERT INTO TrainingEvents (TrainingSessionID,Duration,Distance)
-    VALUES (_TrainingSessionID,_Duration,_Distance)
-    RETURNING TrainingEventID INTO STRICT _TrainingEventID;
-END IF;
-RETURN _TrainingEventID;
-END;
-$BODY$ LANGUAGE plpgsql VOLATILE;
-
-
-CREATE OR REPLACE FUNCTION Update_Training_Event(TrainingEventID integer, Duration interval, Distance integer) RETURNS INTEGER AS $BODY$
-UPDATE TrainingEvents SET Duration = $2, Distance = $3 WHERE TrainingEventID = $1 RETURNING TrainingEventID
-$BODY$ LANGUAGE sql VOLATILE;
-
 
 CREATE OR REPLACE FUNCTION New_Training_Session(Datestamp timestamptz, Program text) RETURNS INTEGER AS $FOO$
 # You always write this in the top of the program, it enables strict mode and warnings mode:
