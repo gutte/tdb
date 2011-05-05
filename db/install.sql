@@ -23,20 +23,20 @@ BEGIN;
 
 -- Create tables
 
-\i db/tables/TrainingSessions.sql
-\i db/tables/TrainingEvents.sql
+\i tables/TrainingSessions.sql
+\i tables/TrainingEvents.sql
 
 
 -- Create functions
 
-\i db/functions/New_Training_Session.sql
-\i db/functions/New_Training_Event.sql
-\i db/functions/Update_Training_Event.sql
+\i functions/New_Training_Session.sql
+\i functions/New_Training_Event.sql
+\i functions/Update_Training_Event.sql
 
 
 -- Grant limited rights to phpuser
 
-\i db/users/phpuser.sql
+\i users/phpuser.sql
 
 
 COMMIT;
